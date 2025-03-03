@@ -105,7 +105,7 @@ def basic_calculator(num, num2, op):
         "multiply": num * num2,
         "divide": num / num2
     }
-    return operations.get(op)
+    return operations[op]
 
 print('Exercise 9 Result:', basic_calculator(10, 5, 'subtract'))
 
